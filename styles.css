@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.background {
+	background-image: url("/images/ocean.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.animal-container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	/* margin-top: 50px; */
+}
+
+.heading {
+	background-color: white;
+	padding: 2px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.animal img {
+	width: 200px;
+	height: 200px;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#fact {
+	display: flex;
+	justify-content: center;
+  	position: fixed;
+	margin-top: 100px;
+	width: 80%;
+	font-size: 5vw;
+	z-index: 2;
+}
+
+.animal {
+	width: 33.3%;
+	justify-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 670px) {
+	.animals {
+		margin-top: 180px;
+	}
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+	.animals {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.animals {
+		margin-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.animals {
+		margin-top: 120px;
+	}
+}
